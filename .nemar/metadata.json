@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Heuristics in risky decision-making relate to preferential representation of information MEG data",
+  "description": "This magnetoencephalography (MEG) dataset comprises neuroimaging data from a risky decision-making task designed to investigate how heuristics in choice behavior relate to preferential neural representation of decision-relevant information. Participants completed a localizer task followed by a risky decision-making task across multiple scanner runs, with event timing synchronized via photodiode recording. The dataset includes raw MEG data, preprocessed epoched data, and detailed event timing information to support investigation of neural correlates of decision heuristics.",
+  "methods_description": "Data were collected using MEG across 13 scanner runs per subject (5 for subject 1), consisting of a localizer task (runs 1-3/1-5), non-analyzed probability learning task (runs 4-5), and risky decision-making task (runs 6-13/8-15). Event timing was recorded via photodiode accessible as a MEG channel. Data were preprocessed and epoched from 0-500 ms following task events for both localizer and choice task phases.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -11,66 +13,15 @@
     "Ray Dolan": {},
     "Quentin Huys": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds005065.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on005065",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005065",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "meg"
-  ],
-  "resource_type_specific": "MEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".acq",
-    ".cfg",
-    ".cls",
-    ".hc",
-    ".hist",
-    ".infods",
-    ".json",
-    ".mat",
-    ".md",
-    ".meg4",
-    ".newds",
-    ".res4",
-    ".tsv"
-  ],
-  "description": "This magnetoencephalography (MEG) dataset comprises neuroimaging recordings from participants performing risky decision-making and localizer tasks. The study investigates how heuristics in risky choice relate to preferential neural representation of decision-relevant information. Data include raw MEG recordings across multiple task runs with synchronized event timing via photodiode, preprocessed epoched data, and detailed event information tables mapping stimulus presentations and behavioral responses.",
-  "methods_description": "MEG data were collected across 13 scanner runs per participant (5 for subject 1) consisting of localizer task runs (runs 1-3), probability learning task runs (runs 4-5), and risky decision-making task runs (6-13). Event timing was recorded using a photodiode accessible as a MEG channel. Data were preprocessed and downsampled, with epoched data extracted from 0-500 ms following task events including stimulus onsets, choice presentations, responses, and outcomes.",
   "keywords": [
     {
       "term": "MEG"
     },
     {
-      "term": "Risk-Taking",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D012309"
+      "term": "decision-making"
     },
     {
-      "term": "risky decision-making"
-    },
-    {
-      "term": "risky choice"
-    },
-    {
-      "term": "probability learning"
+      "term": "risk"
     },
     {
       "term": "heuristics"
@@ -80,6 +31,23 @@
     },
     {
       "term": "information representation"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on005065",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005065",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005065.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -103,5 +71,29 @@
       "award_title": "Open Research Fund"
     }
   ],
-  "source_hash": "afd2990b58ab0cfc03c39758a426cb692eb12ee2a1c24b9ca66593f8633020d6"
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "MEG Dataset",
+  "modalities": [
+    "meg"
+  ],
+  "sizes": [
+    "462.5 GB (1990 files)"
+  ],
+  "formats": [
+    ".acq",
+    ".cfg",
+    ".cls",
+    ".hc",
+    ".hist",
+    ".infods",
+    ".json",
+    ".mat",
+    ".md",
+    ".meg4",
+    ".newds",
+    ".res4",
+    ".tsv",
+    ".yml"
+  ],
+  "source_hash": "447859334dd5bfa9da7522c99b2b52c2e3194e4b6616ffc45a70fdc420376838"
 }
