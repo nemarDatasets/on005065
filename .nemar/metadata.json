@@ -1,0 +1,32 @@
+{
+  "version": "2.0",
+  "dataset_id": "on005065",
+  "source": "openneuro",
+  "source_id": "ds005065",
+  "title": "Heuristics in risky decision-making relate to preferential representation of information MEG data",
+  "authors": {
+    "Evan M. Russek": {},
+    "Rani Moran": {},
+    "Yunzhe Liu": {},
+    "Ray Dolan": {},
+    "Quentin Huys": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds005065.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "v1.5.0",
+  "recording_modality": [
+    "meg"
+  ],
+  "datatypes": [
+    "meg"
+  ],
+  "acknowledgements": "We thank Daniel Bates for assistance with data collection. We acknowledge funding from the Open Research Fund of the State Key Laboratory of Cognitive Neuroscience and Learning to Y.L. and a Wellcome Trust Investigator Award (098362/Z/12/Z) to R.J.D. This work was carried out whilst R.J.D. was in receipt of a Lundbeck 20 Visiting Professorship (R290-2018-2804) to the Danish Research Centre for Magnetic Resonance. The Max Planck UCL Centre is supported by UCL and the Max Planck Society. The Wellcome Centre for Human Neuroimaging (WCHN) is supported by core funding from the Wellcome Trust (203147/Z/16/Z)."
+}
