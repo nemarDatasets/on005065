@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Heuristics in risky decision-making relate to preferential representation of information MEG data",
-  "description": "This magnetoencephalography (MEG) dataset comprises neuroimaging data from a risky decision-making task designed to investigate how heuristics in choice behavior relate to preferential neural representation of decision-relevant information. Participants completed a localizer task followed by a risky decision-making task across multiple scanner runs, with event timing synchronized via photodiode recording. The dataset includes raw MEG data, preprocessed epoched data, and detailed event timing information to support investigation of neural correlates of decision heuristics.",
-  "methods_description": "Data were collected using MEG across 13 scanner runs per subject (5 for subject 1), consisting of a localizer task (runs 1-3/1-5), non-analyzed probability learning task (runs 4-5), and risky decision-making task (runs 6-13/8-15). Event timing was recorded via photodiode accessible as a MEG channel. Data were preprocessed and epoched from 0-500 ms following task events for both localizer and choice task phases.",
+  "description": "This magnetoencephalography (MEG) dataset examines how heuristics in risky decision-making relate to preferential representation of decision-relevant information. Participants completed a risky decision-making task across multiple scanner runs, with event timing recorded via photodiode and synchronized to MEG recordings. The dataset includes raw MEG data, event timing information, and preprocessed epoched data for both a localizer task and the main choice task, supporting investigation of neural correlates of decision heuristics and information processing biases.",
+  "methods_description": "MEG data were collected across 13 scanner runs per subject (5 for subject 1), comprising a localizer task (runs 1-3/1-5), non-analyzed probability learning task (runs 4-5), and risky decision-making task (runs 6-13/8-15). Event timing was recorded using a photodiode accessible as a MEG channel. Data were preprocessed and epoched from 0-500 ms following task events including gamble information onset, probability stimulus presentation, response, and outcome onset.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -27,10 +27,10 @@
       "term": "heuristics"
     },
     {
-      "term": "neuroimaging"
+      "term": "information processing"
     },
     {
-      "term": "information representation"
+      "term": "neural representation"
     }
   ],
   "related_identifiers": [
