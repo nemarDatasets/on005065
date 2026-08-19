@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "Heuristics in risky decision-making relate to preferential representation of information MEG data",
-  "description": "This magnetoencephalography (MEG) dataset examines how heuristics in risky decision-making relate to preferential representation of decision-relevant information. Participants completed a risky decision-making task across multiple scanner runs, with event timing recorded via photodiode and synchronized to MEG recordings. The dataset includes raw MEG data, event timing information, and preprocessed epoched data for both a localizer task and the main choice task, supporting investigation of neural correlates of decision heuristics and information processing biases.",
-  "methods_description": "MEG data were collected across 13 scanner runs per subject (5 for subject 1), comprising a localizer task (runs 1-3/1-5), non-analyzed probability learning task (runs 4-5), and risky decision-making task (runs 6-13/8-15). Event timing was recorded using a photodiode accessible as a MEG channel. Data were preprocessed and epoched from 0-500 ms following task events including gamble information onset, probability stimulus presentation, response, and outcome onset.",
+  "description": "This dataset contains MEG recordings from participants performing a risky decision-making task alongside a localizer task and a probability learning task. It was collected to investigate heuristics in risky decision-making and their relationship to preferential neural representation of choice- and outcome-related information. The dataset includes raw MEG data and derivative event and epoched data tables supporting analyses reported in an associated preprint.",
+  "methods_description": "Participants completed 13 MEG scanner runs comprising a localizer task, a non-analyzed probability learning task, and a risky decision-making task. Event timing was recorded via a photodiode channel and processed to determine onset times, which are provided in derivative event tables. Epoched preprocessed data were generated for the localizer task and around choice events in the main task, epoched from 0-500 ms following each event.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -18,19 +18,31 @@
       "term": "MEG"
     },
     {
+      "term": "magnetoencephalography"
+    },
+    {
       "term": "decision-making"
     },
     {
-      "term": "risk"
+      "term": "risky choice"
     },
     {
       "term": "heuristics"
     },
     {
-      "term": "information processing"
+      "term": "neuroimaging"
     },
     {
-      "term": "neural representation"
+      "term": "photodiode"
+    },
+    {
+      "term": "reward learning"
+    },
+    {
+      "term": "gambling task"
+    },
+    {
+      "term": "localizer task"
     }
   ],
   "related_identifiers": [
@@ -40,14 +52,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005065",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds005065.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005065",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
