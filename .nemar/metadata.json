@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Heuristics in risky decision-making relate to preferential representation of information MEG data",
-  "description": "This dataset contains MEG recordings from participants performing a risky decision-making task alongside a localizer task and a probability learning task. It was collected to investigate heuristics in risky decision-making and their relationship to preferential neural representation of choice- and outcome-related information. The dataset includes raw MEG data and derivative event and epoched data tables supporting analyses reported in an associated preprint.",
-  "methods_description": "Participants completed 13 MEG scanner runs comprising a localizer task, a non-analyzed probability learning task, and a risky decision-making task. Event timing was recorded via a photodiode channel and processed to determine onset times, which are provided in derivative event tables. Epoched preprocessed data were generated for the localizer task and around choice events in the main task, epoched from 0-500 ms following each event.",
+  "description": "MEG recordings from participants performing a localizer task and a risky decision-making task, used to study how heuristics in risky choice relate to preferential neural representation of information. The dataset includes raw MEG with photodiode-derived event timing, event information tables, and preprocessed epoched data for the localizer and choice phases.",
+  "methods_description": "Each participant completed 13 MEG scanner runs: three localizer runs, two non-analyzed probability learning runs, and eight risky decision-making runs. Event times were recorded with a photodiode captured as an MEG channel and processed into event tables. Preprocessed data were epoched 0-500 ms after events.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -18,31 +18,26 @@
       "term": "MEG"
     },
     {
-      "term": "magnetoencephalography"
-    },
-    {
-      "term": "decision-making"
-    },
-    {
-      "term": "risky choice"
+      "term": "risky decision-making"
     },
     {
       "term": "heuristics"
     },
     {
-      "term": "neuroimaging"
-    },
-    {
-      "term": "photodiode"
-    },
-    {
-      "term": "reward learning"
-    },
-    {
-      "term": "gambling task"
+      "term": "neural representation"
     },
     {
       "term": "localizer task"
+    },
+    {
+      "term": "Decision Making",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D003657"
+    },
+    {
+      "term": "Magnetoencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
     }
   ],
   "related_identifiers": [
@@ -89,7 +84,7 @@
     "meg"
   ],
   "sizes": [
-    "462.5 GB (1990 files)"
+    "431 GB (1990 files)"
   ],
   "formats": [
     ".acq",
